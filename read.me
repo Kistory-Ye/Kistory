@@ -1,0 +1,36 @@
+Music School Management System (MSMS) Overview
+The Music School Management System (MSMS) is a lightweight, in-memory Python application designed to manage the daily operations of a music school. Through a simple command-line interface (CLI), it enables front desk staff to register students, schedule instrument lessons, and query information about students and teachers.
+
+Features
+Student Management: Register new students and track their course enrollments.
+Teacher Management: Maintain a database of teachers and their areas of expertise.
+Search Functionality: Quickly locate students or teachers using keywords (case-insensitive).
+Course Registration: Easily add new instrument courses for existing students.
+Administrator Tools: View complete lists of all registered students and teachers in the system.
+
+Getting Started
+Prerequisites
+Python 3.x must be installed on your machine.
+
+How to Run
+Clone or download the repository to your local machine.
+Open a terminal or command prompt.
+Navigate to the directory containing MSMS.py.
+Run the program using the following command: Bash
+python MSMS.py Usage
+After running the program, you will see a menu. Simply enter the corresponding number or letter for the action you wish to perform:
+
+Register New Student: Create a student profile and enroll them in an instrument.
+Enrol Existing Student: Use the student's ID to add a new instrument course to their existing record.
+Lookup Student or Teacher: Enter a name or specialty/instrument to search and locate any records.
+List all Students: Display summary information for each student in the database.
+List all Teachers: Display summary information for each teacher in the database.
+q. Quit: Safely exit the application.
+
+Project Structure
+MSMS.py: Main source code containing logic, data models, and interactive menu.
+
+Future Improvements
+Persistent storage: Add functionality to save or load data from files (such as JSON or CSV) to prevent data loss upon program shutdown.
+Data validation: Implement more robust validation for inputs such as IDs and names.
+Enhanced reporting: Add new features to display all students enrolled in a specific instrument course.
